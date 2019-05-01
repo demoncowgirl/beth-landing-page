@@ -12,7 +12,9 @@
     "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "gulp": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "popper.js": "^1.15.0",
+    "run-sequence": "^2.2.1",
     "sass": "^1.19.0"
   },
   "dependencies": {
