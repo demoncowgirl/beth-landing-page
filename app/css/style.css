@@ -14,8 +14,8 @@ body {
   border-style: dashed;
   border-color: black;
   position: relative;
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
   padding: 15px;
   -ms-transform: rotate(45deg); /* IE 9 */
   -webkit-transform: rotate(45deg); /* Safari 3-8 */
@@ -29,6 +29,21 @@ div.text {
   -webkit-transform: rotate(-45deg); /* Safari 3-8 */
   transform: rotate(-45deg);
 }
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-center {
+  min-width: 100%;
+  min-width: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 
 .btn {
   background-color: #778899;
